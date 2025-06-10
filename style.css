@@ -1,7 +1,7 @@
 body {   /*caracteristicas para el cuerpo del documento web*/
     font-family: Arial, sans-serif;   /*tipo de letra*/
     margin: 0; /*margen*/
-    padding: 0;
+    padding: 0; /*define el espacio dentro de los bordes de un elemento, alrededor de su contenido*/
 }
 
 .container {
@@ -22,7 +22,7 @@ header h1 {
 }
 
 .btn { /*caracteristicas para el boton "ver caracteristicas"*/
-    display: inline-block;
+    display: inline-block; /* muestra elementos en linea con otros elementos*/
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
