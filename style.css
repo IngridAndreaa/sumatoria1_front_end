@@ -1,33 +1,33 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+body {   /*caracteristicas para el cuerpo del documento web*/
+    font-family: Arial, sans-serif;   /*tipo de letra*/
+    margin: 0; /*margen*/
     padding: 0;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+    width: 80%; /*ancho del 80% de la página*/
+    margin: 0 auto; /*margen automático*/
     padding: 20px 0;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
+    background-color: #333; /*color de fondo*/
+    color: #fff; /*color de fuente*/
+    text-align: center; /*alineacion del texto*/
     padding: 100px 0;
 }
 
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.5em; /*tamaño de la letra*/
 }
 
-.btn {
+.btn { /*caracteristicas para el boton "ver caracteristicas"*/
     display: inline-block;
     background-color: #007bff;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 5px; /*redondear bordes*/
     transition: background-color 0.3s ease;
 }
 
@@ -52,27 +52,27 @@ h2 {
     font-size: 1.5em;
 }
 
-.testimonial {
+.testimonial {  /*caracteristicas para los testimonios*/
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 30px;
 }
 
-.testimonial p {
+.testimonial p { /*caracteristicas para el parrafo de testimonios*/
     font-style: italic;
 }
 
-.testimonial cite {
+.testimonial cite { 
     font-weight: bold;
 }
 
-form {
-    max-width: 600px;
+form {  /*caracteristicas para el formulario*/
+    max-width: 600px; /* ancho máximo*/
     margin: 0 auto;
 }
 
-input[type="text"],
+input[type="text"], /*tipo de dato que se insertara*/
 input[type="email"],
 textarea {
     width: 100%;
@@ -82,7 +82,7 @@ textarea {
     border: 1px solid #ccc;
 }
 
-button[type="submit"] {
+button[type="submit"] { /*caracteristicas para el boton de enviar*/
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -96,7 +96,7 @@ button[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-footer {
+footer {  /*caracteristicas para el pie de página*/
     background-color: #333;
     color: #fff;
     text-align: center;
